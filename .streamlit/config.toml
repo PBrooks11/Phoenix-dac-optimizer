@@ -1,0 +1,8 @@
+[server]
+# Allow Streamlit to serve static files from the app directory.
+# Fixes "Forbidden. File does not reside within a trusted folder."
+# when the app is launched from a parent directory.
+enableStaticServing = true
+
+[browser]
+gatherUsageStats = false

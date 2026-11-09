@@ -1,0 +1,4 @@
+# Streamlit Cloud deployment — suppress optional heavy deps not needed for demo
+# (reportlab is only used by build_pdf.py, not imported by app.py at startup)
+[tool.streamlit]
+# nothing needed here — config is in .streamlit/config.toml
