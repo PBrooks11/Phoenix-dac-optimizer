@@ -451,7 +451,7 @@ box(sl, 0.6, 5.3, 12, 0.5,
     font_size=14, bold=True, color=RGBColor(0x60,0xa5,0xfa), align=PP_ALIGN.CENTER)
 
 box(sl, 0.6, 6.0, 12, 0.45,
-    "github.com/PBrooks11/Phoenix-dac-optimizer  ·  Live demo: your-deploy-url.streamlit.app",
+    "github.com/PBrooks11/Phoenix-dac-optimizer  ·  Live demo: phoenix-dac-optimizer-5zjneygcrutyu5ywn2ivo5.streamlit.app",
     font_size=12, color=RGBColor(0x94,0xa3,0xb8), align=PP_ALIGN.CENTER)
 
 
