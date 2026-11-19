@@ -1,7 +1,7 @@
 # Phoenix DAC Optimizer
 ### AI-Powered Carbon Removal System — IBM AI Builders Challenge 2024
 
-**Built with IBM Bob** | IBM AI Builders Challenge 2024
+**[Live Demo →](https://phoenix-dac-optimizer-5zjneygcrutyu5ywn2ivo5.streamlit.app)** | Built with IBM Bob | IBM AI Builders Challenge 2024
 
 ---
 
