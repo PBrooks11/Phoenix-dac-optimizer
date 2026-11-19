@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.env
+.venv
+venv/
+
+# Office temp files
+~$*
+
+# Sensitive / private documents — keep local only
+IBM_DAC_Optimizer_Proposal.docx
+Phoenix_DAC_Company_Plan.pdf
+
+# macOS
+.DS_Store
