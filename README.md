@@ -1,7 +1,7 @@
 # Phoenix DAC Optimizer
 ### AI-Powered Carbon Removal System — IBM AI Builders Challenge 2024
 
-**[Live Demo →](https://your-deploy-url.streamlit.app)** | Built with IBM Bob
+**Built with IBM Bob** | IBM AI Builders Challenge 2024
 
 ---
 
@@ -32,7 +32,7 @@ Every line of code in this project was written with IBM Bob as the primary devel
 ## Run locally
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/phoenix-dac-optimizer
+git clone https://github.com/PBrooks11/Phoenix-dac-optimizer
 cd phoenix-dac-optimizer
 pip install -r requirements.txt
 streamlit run app.py

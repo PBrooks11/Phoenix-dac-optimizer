@@ -14,6 +14,9 @@ venv/
 # Office temp files
 ~$*
 
+# Utility / setup scripts — not needed by judges
+setup_github.sh
+
 # Sensitive / private documents — keep local only
 IBM_DAC_Optimizer_Proposal.docx
 Phoenix_DAC_Company_Plan.pdf

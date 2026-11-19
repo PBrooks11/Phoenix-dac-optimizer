@@ -1497,38 +1497,6 @@ with tab_export:
         ad = chosen_assay.summary_dict()
         st.json(ad)
 
-    st.markdown("---")
-    st.subheader("📄 Company Plan PDF")
-    st.markdown(
-        "Generates the full **Phoenix DAC Company Plan & Technical Reference** — "
-        "17 pages including all modules, LCA, MRV, cash flow, funding plan, risk register, "
-        "and IBM proposal."
-    )
-
-    _pdf_path = _APP_DIR / "Phoenix_DAC_Company_Plan.pdf"
-
-    if st.button("🔄 Regenerate PDF (uses live simulation data)", type="secondary"):
-        with st.spinner("Building PDF…"):
-            try:
-                import build_pdf as _bpdf
-                _bpdf.build()
-                st.success("PDF regenerated successfully.")
-            except Exception as _e:
-                st.error(f"PDF build failed: {_e}")
-
-    if os.path.exists(_pdf_path):
-        with open(_pdf_path, "rb") as _f:
-            _pdf_bytes = _f.read()
-        st.download_button(
-            "⬇️  Download Phoenix_DAC_Company_Plan.pdf",
-            data=_pdf_bytes,
-            file_name="Phoenix_DAC_Company_Plan.pdf",
-            mime="application/pdf",
-            type="primary",
-        )
-        st.caption(f"File size: {len(_pdf_bytes)//1024} kB  ·  17 pages  ·  Confidential — Pre-Commercial")
-    else:
-        st.info("Click 'Regenerate PDF' to build the document.")
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # TAB: MRV REGISTRY
